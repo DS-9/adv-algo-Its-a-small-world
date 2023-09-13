@@ -1,4 +1,4 @@
-# It-s-a-small-world
+# It's a small world
 
 CPSC 535 Advanced Algorithms 
 Project 2: Its a small world 
