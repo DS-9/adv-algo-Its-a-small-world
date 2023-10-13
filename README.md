@@ -8,7 +8,6 @@ In this project you will design and implement one algorithm related to strings. 
 We assume that the name of each actor is a string, thus a cast is a set of strings, ordered in alphabetical order. But it does not matter whether they are listed alphabetically or not, but for simplicity, let’s list them in alphabetical order. 
 The input will be a positive integer n > 2, and a list of n casts from which the first two sets are more significant, CAST[0] and CAST[1]. If the two casts CAST[0] and CAST[1] have at least one string in common, then the shortest connection is 1. If the two casts CAST[0] and CAST[1] do not have any string in common, then look for another cast in the list of n casts, let’s called it tempCast, such that CAST[0] and tempCast have a string in common, and CAST[1] and tempCast have a string common, then the shortest connection is 2. Else the shortest connection is greater than 2 or there is no connection.
 
-
 ## Summary:
 1.	Take the input n which represents the number of casts. 
 2.	For loop to get the casts from the user alternatively we can took input from a text file
