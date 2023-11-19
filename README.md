@@ -3,7 +3,7 @@
 CPSC 535 Advanced Algorithms 
 Project 2: Its a small world     
 
-## Problem Statement:  
+## Problem Statement:    
 In this project you will design and implement one algorithm related to strings. You will design the algorithm, describe the algorithm using clear pseudocode, and implement it using C/C++/C#/Java/Python, compile, test it, and submit BOTH the report (as a PDF file) and the files. The execution should take less than one hour for each input example.
 We assume that the name of each actor is a string, thus a cast is a set of strings, ordered in alphabetical order. But it does not matter whether they are listed alphabetically or not, but for simplicity, let’s list them in alphabetical order. 
 The input will be a positive integer n > 2, and a list of n casts from which the first two sets are more significant, CAST[0] and CAST[1]. If the two casts CAST[0] and CAST[1] have at least one string in common, then the shortest connection is 1. If the two casts CAST[0] and CAST[1] do not have any string in common, then look for another cast in the list of n casts, let’s called it tempCast, such that CAST[0] and tempCast have a string in common, and CAST[1] and tempCast have a string common, then the shortest connection is 2. Else the shortest connection is greater than 2 or there is no connection.
