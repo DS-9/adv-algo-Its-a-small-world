@@ -2,7 +2,7 @@
 
 CPSC 535 Advanced Algorithms 
 Project 2: Its a small world     
-
+  
 ## Problem Statement:    
 In this project you will design and implement one algorithm related to strings. You will design the algorithm, describe the algorithm using clear pseudocode, and implement it using C/C++/C#/Java/Python, compile, test it, and submit BOTH the report (as a PDF file) and the files. The execution should take less than one hour for each input example.
 We assume that the name of each actor is a string, thus a cast is a set of strings, ordered in alphabetical order. But it does not matter whether they are listed alphabetically or not, but for simplicity, let’s list them in alphabetical order. 
